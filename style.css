@@ -1,0 +1,26 @@
+/* Don't worry about this yet.  I pre-filled the CSS so that your HTML won't look so boring :) */
+
+body {
+    background-color: #111426;
+    color: #fff;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+a {
+    color: #93aebf;
+}
+
+img {
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid #93aebf;
+}
+
+.container {
+    padding: 30px;
+    margin: 20px;
+    border: 1px solid white;
+    background-color: #1b2440;
+    box-shadow: 1px 0px 2px 1px #fff;
+}
