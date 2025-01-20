@@ -1,10 +1,15 @@
 /* Don't worry about this yet.  I pre-filled the CSS so that your HTML won't look so boring :) */
 
+.title {
+    text-align: center;
+}
+
 body {
     background-color: #111426;
     color: #fff;
     font-family: monospace;
     font-size: 16px;
+    margin: 20px;
 }
 
 a {
