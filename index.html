@@ -6,24 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Kino</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1 class='title'>Learn with Kino</h1>
-    <div>
-        <p>My name is Kaung Khant Lin <em>aka</em> Kino. I'm from Myanmar and currently attending at Assumption
-            University of Thailand.
-        <p>
-        <p>Here is my <a href="https://github.com/Kinosaur" target="_blank" title="Kino's Github">Github account</a>.
-            I'm trying my best so you should too.</p>
-        <h2>Don't Give up!</h2>
-    </div>
-    <div>
-        <p>Here's the picture of <a href="https://kprofiles.com/le-sserafim-members-profile/" target="_blank"
-                title="Infos about Le Serrafim">Le Serrafim</a>. A K-Pop group I like.</p>
-        <img src="https://wallpapers.com/images/hd/le-sserafim-group-selfie-celebration-cnip1kqkhcjw3o7b.jpg"
-            alt="A Group pic of Le Serrafim">
-    </div>
+    <main class="main">
+        <section class="logo-contiainer">
+            <h1 class="logo">Kino</h1>
+        </section>
+        <section class="profile-section">
+            <div class="profile-pic-and-info">
+                <div class="profile-pic-wrapper">
+                    <img src="profile-pic.jpeg" alt="Kino Profile" class="profile-pic">
+                </div>
+                <div class="profile-info">
+                    <h2 class="profile-name">Kaung Khant Lin</h2>
+                    <p class="profile-desc">Student at <a href="https://www.au.edu/" target="_blank">Assumption
+                            University</a></p>
+                    <p class="profile-desc"> Computer Vision | Machine Learning</p>
+                </div>
+            </div>
+            <div class="profile-actions">
+                <a href="#" class="cv-btn">View CV</a>
+                <div class="social-icons">
+                    <a href="https://github.com/Kinosaur" target="_blank" title="Github" class="social-icon">
+                        <svg width="28" height="28">
+                            <use xlink:href="simpleicons.svg#icon-github"></use>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" title="LinkedIn" class="social-icon">
+                        <svg width="28" height="28">
+                            <use xlink:href="simpleicons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" title="Instagram" class="social-icon">
+                        <svg width="28" height="28">
+                            <use xlink:href="simpleicons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Kino</p>
+            <script>
+                document.getElementById('current-year').textContent = new Date().getFullYear();
+            </script>
+        </div>
+    </footer>
 </body>
 
 </html>
